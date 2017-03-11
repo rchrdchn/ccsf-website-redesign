@@ -1,3 +1,4 @@
+
 <!doctype html>
 
 <html lang="en">
@@ -17,6 +18,9 @@
 
 	<!-- Main CSS Stylesheet -->
 	<link href="css/main.css" rel="stylesheet">
+
+	<!-- ANIMATE CSS Stylesheet -->
+	<link href="css/animate.css" rel="stylesheet" media="all">
 
 	<!-- Montserrat and Open Sans -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,700" rel="stylesheet">
@@ -41,17 +45,25 @@
 				<div class="sidebar">
 					<nav class="nav-bar">
 						<ul id="list">
-							<li id="logo"><a href="http://richardchan.me/" style="text-decoration: none;">Richard Chan</a></li>
-							<li><a href="http://richardchan.me/" class="top-nav">portfolio</a></li>
-							<li><a href="http://richardchan.me/about.html" class="top-nav">about</a></li>
-							<li><a href="mailto:richardchanme@gmail.com" class="top-nav">contact</a></li>
+							<li id="logo" class="animated fadeInDown"><a href="http://richardchan.me/" style="text-decoration: none;">Richard Chan</a></li>
+							<li><a href="http://richardchan.me/" class="top-nav animated fadeIn">portfolio</a></li>
+								<ul id="top-projects" class="animated fadeIn">
+									<li class="top-nav-project"><a href="online-resume.html">online resume</a></li>
+									<li class="top-nav-project"><a href="ccsf/ccsf.html">ccsf</a></li>
+									<li class="top-nav-project"><a href="creaa/index.html">creaa</a></li>
+									<li class="top-nav-project"><a href="tribute/index.html">fc barcelona</a></li>
+									<li class="top-nav-project"><a href="movie/index.html">movie</a></li>
+									<li class="top-nav-project"><a href="#">work in progress</a></li>
+								</ul>
+							<li><a href="about.html" class="top-nav animated fadeIn">about</a></li>
+							<li><a href="mailto:richardchanme@gmail.com" class="top-nav animated fadeIn">contact</a></li>
 						</ul>
 					</nav>
 				</div>
 			</div>
 		
 		<!-- Portfolio Work -->
-		<main class="col-sm-12 col-md-9">
+		<main class="col-sm-12 col-md-9 animated fadeIn">
 			<div class="row">
 				<div class="title col-md-12">
 					<h2>City College of San Francisco<br>Website Redesign</h2>
@@ -60,7 +72,7 @@
 			<div class="work">
 				<div class="row">
 					<section class="col-md-12">
-						<a href="ccsf/index.html" target="_blank"><img src="images/ccsf-redesign.jpg" class="portfolio img-responsive text-center" alt="city college of san francisco website redesign"></a>
+						<a href="index.html" target="_blank"><img src="images/ccsf-redesign.jpg" class="portfolio img-responsive text-center" alt="city college of san francisco website redesign"></a>
 					
 						<h2>Overview</h2>
 						<p class="text">Having attended <a href="http://www.ccsf.edu/" target="_blank">City College of San Francisco</a> (CCSF) and seen the same website for long time – outdated, crowded, and without a clear message, it felt about time to redesign and recreate it from scratch. Some goals during this project were to create a modern look and feel site with a concise message and clear guide and directions for visitors such as future students as well as alumnus.</p>
@@ -97,8 +109,8 @@
 
 						<h2>New vs Old</h2>
 
-						<img src="images/ccsf-sketch.jpg" class="wireframe" alt="new website">
-						<img src="images/ccsf-old.jpg" class="wireframe" alt="old website">
+						<a href="index.html" target="_blank"><img src="images/ccsf-sketch.jpg" class="wireframe" alt="new website"></a>
+						<a href="http://www.ccsf.edu/" target="_blank"><img src="images/ccsf-old.jpg" class="wireframe" alt="old website"></a>
 
 						<h4 class="text-center"><a href="index.html" class="top-nav" target="_blank">Link to website</a> | <a href="https://github.com/rchrdchn/ccsf-website-redesign" class="top-nav" target="_blank">Github</a> | <a href="https://medium.com/@rchrdchn/project-week-1-ccsf-website-redesign-8b1d3a62e851#.1w3ezwo2z" class="top-nav" target="_blank">Medium Post</a></h4>
 						</section>
@@ -114,12 +126,14 @@
 		<footer class="row navbar-fixed-bottom" id="info">
 			<div class="social-media footer col-xs-12 col-sm-12 col-md-2">
 				<a href="https://www.linkedin.com/in/rchrdchn" target="_blank" class="fav-icons"> <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+				<a href="https://github.com/rchrdchn" target="_blank" class="fav-icons"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
 				<a href="mailto:richardchanme@gmail.com" class="fav-icons"><i class="fa fa-envelope-o fa-2x" aria-hidden="true">
 				</i></a>
-				<a href="https://github.com/rchrdchn" target="_blank" class="fav-icons"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+				<a href="images/RichardChanResume17.pdf" target="_blank" class="fav-icons"><i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i></a>
 			</div>
+
 			<div class="footer col-xs-12 col-sm-12 col-md-10">
-				<p>Copyright © Richard Chan // Web Developer</p>
+				<p class="footer-text">Copyright © Richard Chan, Front-End Developer</p>
 			</div>
 		</footer>
 	</div>

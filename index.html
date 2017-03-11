@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Web icon -->
+	<link rel="icon" sizes="192x192" href="images/rclogo.png">
+
+	<!-- Mobile Chrome theme color -->
+	<meta name="theme-color" content="#b10a0a">
+	
+	<!-- Google Fonts. Merriweather (serif) and Catamaran (sans-serif) -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Catamaran:400,500" rel="stylesheet">
+
+	<!-- Font Awesome CDN -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- CSS Bootstrap CDN -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- jQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>	
+
+	<!-- Link to CSS file -->
+	<link rel="stylesheet"  href="css/stylesheet.css">
+	
+	<!-- Website title -->
+	<title>City College of San Francisco</title>
+
+</head>
+
+<body>
+
+	<!-- NAVIGATION BAR - TOGGLES INTO BURGER ICON WHEN REACHES MIN WIDTH OF 768PX (MEDIA QUERY) -->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+		
+		<!-- Brand and toggle get grouped for better mobile display -->
+		
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#burger-icon" aria-expanded="false">
+		    <span class="sr-only">Toggle navigation</span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		  </button>
+		  <img src="images/logo.png" class="logo navbar-left" alt="ccsf logo">
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		
+		<div class="collapse navbar-collapse" id="burger-icon">
+		  <ul class="nav navbar-nav navbar-right">
+		    <li class="top-nav"><a href="about.html">About</a></li>
+		        <li class="top-nav"><a href="academics.html">Academics</a></li>
+		        <li class="top-nav"><a href="students.html">Students</a></li>
+		        <li class="top-nav"><a href="staff.html">Staff</a></li>
+		        <li class="top-nav"><a href="apply.html">Apply</a></li>
+		    	<li class="top-nav"><a href="login.html" class="btn btn-warning" role="button">MyCCSF</a></li>
+		    	<li><i class="fa fa-search fa-2x search" aria-hidden="true"></i></li>
+		  </ul>
+		</div> <!-- /.navbar-collapse -->
+		</div> <!-- /.container-fluid -->
+	</nav>
+		
+		<!-- MAIN IMAGE - CAMPUS -->
+
+	<div class="row">
+		<div class="">
+		<img width="100%" src="images/ccsf_campus.jpg" class="img-responsive" alt="">
+		</div>
+	</div>
+
+	<!-- CALL-TO-ACTIONS -->
+
+	<div class="row">
+		<div class="" id="details">
+			<div class="col-md-4 text-center" id="campus">
+				<h3>International<br>Students</h3>
+				<p class="details-info">There are over 1200 students from 90 countries studying at our various campuses.</p>
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-default"><p>Learn More</p></button>
+				</div>
+			</div>
+			<div class="col-md-4 text-center" id="student-life">
+				<h3>Class<br>Schedule</h3>
+				<p class="details-info">Spring 2017 future focused class schedule is now available. Classes start January 2017.</p>
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-default"><p>Register Today</p></button>
+				</div>
+			</div>
+			<div class="col-md-4 text-center" id="application">
+				<h3>Online<br>Application</h3>
+				<p class="details-info">City College of San Francisco is your gateway to higher personal enrichment.</p>
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-default"><p>Apply Now</p></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- COUNSELING STUDENTS IMAGE and CALL-TO-ACTION -->
+
+	<div class="row">
+		<div class="" id="counseling">
+			<a href="#" target="_blank"><img src="images/counseling.jpg" class="counseling-students img-responsive" alt="counseling students"></a>
+			<!-- <button type="button" id="counselor" class="btn btn-default">Speak with a counselor</button> -->
+		</div>
+	</div>
+
+	<!-- NEWS AND GET INVOLVED (EVENTS) -->
+
+	<div class="row">
+		<div class="" id="news-involved">
+			<div class="col-md-6 text-center news">
+				<h2>CCSF News</h2>
+				<p class="news-info">Biologists find first evidence frogs can recover from deadly fungus »</p>
+				<p class="news-info">Finding health and heritage in natural, traditional foods »</p>
+				<p class="news-info">After 50 years, professor still enjoys the challenges »</p>
+				<p class="news-info">45 minutes later, I'm an American</p>
+				<p class="news-info">Best moments in All-Star history</p>
+				<h4 class="news-info text-center"><a href="#">More news »</a></h4>
+			</div>
+
+			<div class="col-md-6 text-center get-involved">
+				<h2>Get Involved</h2>
+				<p class="involved-info text-center">
+					College Soccer<br>
+					Laney at Rams<br>
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					George M. Rush Stadium<br>
+					<i class="fa fa-calendar" aria-hidden="true"></i>
+					March 24, 1400 - 1600
+				</p>
+				<p class="involved-info text-center">
+					Art Gallery<br>
+					Diego Rivera Collection<br>
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					Diego Rivera Theatre<br>
+					<i class="fa fa-calendar" aria-hidden="true"></i>
+					April 07, 1300 - 1700
+				</p>
+				<h4 class="involved-info text-center"><a href="#">More events »</a></h4>
+			</div>
+		</div>
+	</div>
+
+	<!-- CONTACT US INFORMATION AND FORM -->
+
+	<div class="row">
+		<div class="col-md-12" id="contact">
+			<h2 class="text-center contact-us">Contact Us</h2>
+			<div class="col-md-6 contact_info">
+				<h3>Enrollment &amp; Registration</h3>
+				<p>50 Phelan Avenue, Conlan Hall Rm. 107 </p>
+				<p>(415) 239 - 3285</p>
+				<h3>Tuition &amp; Fees</h3>
+				<p>50 Phelan Avenue, Smith Hall Rm. 118</p>
+				<p>(415) 239-3521</p>
+				<h3>Online Registration</h3>
+				<p>Email: register@ccsf.edu</p>
+				<p>(415) 239-3732</p>
+			</div>
+
+			<div class="col-md-6 form_info">
+				<div class="form-group">
+			    	<label for="exampleInputName">Full Name</label>
+			    	<input type="text" class="form-control" id="exampleInputName" placeholder="Full name">
+			  	</div>
+			  	<div class="form-group">
+			    	<label for="exampleInputEmail">Email address</label>
+			    	<input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+			  	</div>
+			  	<div class="form-group">
+			  		<label for="exampleInputOption">Purpose</label>
+					<select class="form-control">
+						<option>Admission &amp; Enrollment</option>
+						<option>Careers &amp; Programs</option>
+						<option>International Student</option>
+						<option>Counseling</option>
+						<option>Athletics</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="exampleInputMessage">Message</label>
+					<textarea class="form-control" rows="3"></textarea>
+				</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+			</div>
+		</div>
+	</div>
+
+		<!-- FOOTER -->
+
+	<div class="row">
+		<div class="text-center" id="footer">
+			<p>City College of San Francisco | 50 Phelan Avenue, San Francisco CA 94112 | 415-239-3000</p>
+		</div>
+	</div>
+
+	<!-- JS Bootstrap CDN -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" rel="stylesheet"></script>
+
+</body>
+
+</html>
